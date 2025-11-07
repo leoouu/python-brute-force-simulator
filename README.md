@@ -4,16 +4,6 @@
 
 Este projeto demonstra como funciona um ataque de **brute force** contra um sistema de login. É um projeto para entender conceitos de segurança cibernética.
 
-## 🗂️ Estrutura do Projeto
-
-```
-p2/
-├── servidor_local.py    # Servidor web Flask com página de login
-├── bruteforce.py        # Script que simula o ataque de brute force
-├── wordlist.txt         # Lista de senhas comuns para testar
-└── README.md            # Este arquivo
-```
-
 ## 🚀 Como Usar
 
 ### Pré-requisitos
@@ -79,4 +69,5 @@ O script tentará cada senha da `wordlist.txt` até encontrar a correta.
 1. **Brute Force Attack**: Tentativa sistemática de adivinhar credenciais testando múltiplas combinações
 2. **Wordlist**: Lista de senhas comuns frequentemente usadas em ataques
 3. **HTTP POST**: Método usado para enviar dados de formulários
+
 4. **Response Analysis**: Análise das respostas do servidor para determinar sucesso/falha
